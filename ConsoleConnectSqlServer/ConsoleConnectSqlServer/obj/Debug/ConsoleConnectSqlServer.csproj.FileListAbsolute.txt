@@ -1,0 +1,7 @@
+C:\Users\27980\Desktop\Projects\SQLServer\ConsoleConnectSqlServer\ConsoleConnectSqlServer\bin\Debug\ConsoleConnectSqlServer.exe.config
+C:\Users\27980\Desktop\Projects\SQLServer\ConsoleConnectSqlServer\ConsoleConnectSqlServer\bin\Debug\ConsoleConnectSqlServer.exe
+C:\Users\27980\Desktop\Projects\SQLServer\ConsoleConnectSqlServer\ConsoleConnectSqlServer\bin\Debug\ConsoleConnectSqlServer.pdb
+C:\Users\27980\Desktop\Projects\SQLServer\ConsoleConnectSqlServer\ConsoleConnectSqlServer\obj\Debug\ConsoleConnectSqlServer.csproj.AssemblyReference.cache
+C:\Users\27980\Desktop\Projects\SQLServer\ConsoleConnectSqlServer\ConsoleConnectSqlServer\obj\Debug\ConsoleConnectSqlServer.csproj.CoreCompileInputs.cache
+C:\Users\27980\Desktop\Projects\SQLServer\ConsoleConnectSqlServer\ConsoleConnectSqlServer\obj\Debug\ConsoleConnectSqlServer.exe
+C:\Users\27980\Desktop\Projects\SQLServer\ConsoleConnectSqlServer\ConsoleConnectSqlServer\obj\Debug\ConsoleConnectSqlServer.pdb
