@@ -12,115 +12,76 @@ namespace ConsoleConnectSqlServer
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("欢迎访问系统！");
-            Console.WriteLine("请在下方输入您的用户名和密码！！！");
+            //选择语言
+            InfoHelper.ChangeLanguage();
+
+
+
+
+            //用户登录
+            Console.WriteLine(InfoHelper.Info1);
+            Console.WriteLine(InfoHelper.Info2);
 
             String InputUserName = "";
             String InputPassWord = "";
-            DataTable table;
-            DataTable AllTable;
+            
+            
+            TableModel userTM = new TableModel();
 
-            do
+
+            while(true) 
             {
-                Console.Write("请输入用户名：");
+                Console.Write(InfoHelper.Info3);
                 InputUserName = Console.ReadLine();
 
-                Console.Write("请输入密码：");
+                Console.Write(InfoHelper.Info4);
                 InputPassWord = Console.ReadLine();
 
-                string sql = $"Select * from Table_1 where UserName='{InputUserName}' and PassWord='{InputPassWord}'";
-                table = SelectData(sql);
-                if (table.Rows.Count <= 0)
+                userTM = TableOpration.Login(InputUserName, InputPassWord);
+                if (userTM == null)
                 {
-                    Console.WriteLine("用户名或密码错误！！！");
-
+                    Console.WriteLine(InfoHelper.Info5);
+                    continue;
                 }
-            } while (table.Rows.Count <= 0);
+                break;
+            } 
+
+
 
 
             //欢迎页面
             //Console.WriteLine("欢迎您登录本系统，尊敬的{0}!!!", table.Rows[0]["NickName"]);
-            Console.WriteLine($"欢迎您登录本系统，尊敬的{table.Rows[0]["NickName"]}!!!");
+            //Console.WriteLine($"欢迎您登录本系统，尊敬的{table.Rows[0]["NickName"]}!!!");
+            InfoHelper.Info6 = InfoHelper.Info6.Replace("@NickName", userTM.NickName);
+            Console.WriteLine(InfoHelper.Info6);
 
-            string gender = table.Rows[0]["Gender"].ToString();
-            //获取数据
-            if (string.IsNullOrEmpty(gender))
-            {
-                //收集用户的性别
-                Console.WriteLine($"尊敬的{table.Rows[0]["NickName"]}，您的性别是空，所以需要您提供性别内容。");
-                while(true)
-                {
-                    Console.WriteLine("请在下方输入您的性别");
-                    Console.WriteLine("性别选项：1、男 2、女");
-                    gender = Console.ReadLine();
-                    if(gender == "1")
-                    {
-                        gender = "男";
-                    }
-                    else if(gender == "2")
-                    {
-                        gender = "女";
-                    }else
-                    { 
-                        continue;
-                    }
-
-                    string updateSql = $"update Table_1 set Gender='{gender}' where UserName='{table.Rows[0]["UserName"]}'";
-                    int EditdataResult = EditData(updateSql);
-                    if(EditdataResult <= 0)
-                    {
-                        Console.WriteLine("数据收集失败，本次不做更新！");
-                    }
-                    else
-                    {
-                        Console.WriteLine("数据更新成功！");
-                    }
-                    break;
-                }
-            }
+            //获取收集数据
+            TableOpration.CollectGender(userTM);
             
+            //获取数据库表格
+            List<TableModel> users = TableOpration.QureyAllUsers();
+
+
+
             //打印数据库表格
-            string AllDataSql = "Select * from Table_1";
-            AllTable = SelectData(AllDataSql);
-            for(int i=0; i<AllTable.Rows.Count; i++)
+            for (int i=0; i<users.Count; i++)
             {
-                Console.WriteLine("用户名 昵称 性别");
-                Console.WriteLine($"{AllTable.Rows[i]["UserName"]} {AllTable.Rows[i]["NickName"]} {AllTable.Rows[i]["Gender"]}");
+                string genderForSql = users[i].Gender;
+                if (genderForSql == "1")
+                {
+                    genderForSql = InfoHelper.Gender1;
+                }
+                else if(genderForSql == "2")
+                {
+                    genderForSql = InfoHelper.Gender2;
+                }
+                Console.WriteLine(InfoHelper.Info12);
+                Console.WriteLine($"{users[i].UserName} {users[i].NickName} {genderForSql}");
             }
 
 
 
 
-
-            //String userName = "111";
-            //String passWord = "111";
-            //String nickName = "111";
-            //String insertSQL = $"insert into Table_1 values('{userName}','{passWord}','{nickName}');";
-            //String deleteSQL = $"delete from Table_1 where UserName='{userName}';";
-
-            ////增、删、改
-            //int count = EditData(deleteSQL);
-
-            //if(count > 0)
-            //{
-            //    Console.WriteLine("执行成功，受影响的行数是：{0}", count);
-            //}
-            //else
-            //{
-            //    Console.WriteLine("执行失败");
-            //}
-            ////查询
-            //String selectSQL = "select * from Table_1;";
-            //DataTable table = SelectData(selectSQL);
-
-            //for (int i = 0; i < table.Rows.Count; i++)
-            //{
-            //    Console.WriteLine($"{table.Rows[i]["UserName"]}  {table.Rows[i]["PassWord"]}  {table.Rows[i]["NickName"]}");
-            //}
-
-            ////提交SQL语句
-            ////得到返回数据
-            ////展示
 
 
 
@@ -128,56 +89,7 @@ namespace ConsoleConnectSqlServer
             Console.ReadKey();
         }
 
-        public static int EditData(String SQL)
-        {
-            int count = 0;
-            SqlConnection conn = new SqlConnection();
-            conn.ConnectionString = "Server=localhost;Database=TestDB;Trusted_Connection=true";
-            conn.Open();
-
-            SqlCommand cmd = new SqlCommand(SQL, conn);
-
-            try
-            {
-                count = cmd.ExecuteNonQuery();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-            
-
-            conn.Close();
-
-
-            return count;
-        }
-
-        public static DataTable SelectData(String SQL)
-        {
-            SqlConnection conn = new SqlConnection();
-            conn.ConnectionString = "Server=localhost;Database=TestDB;Trusted_Connection=true";
-            conn.Open();
-
-
-            SqlCommand cmd = new SqlCommand();
-            cmd.Connection = conn;
-            cmd.CommandText = SQL;
-
-            SqlDataAdapter adapter = new SqlDataAdapter();
-            adapter.SelectCommand = cmd;
-
-            DataSet ds = new DataSet();
-            adapter.Fill(ds);
-
-            
-            DataTable table = ds.Tables[0];
-
-            conn.Close() ;
-
-            return table;
-
-        }
+        
 
     }
 }

@@ -43,8 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InfoHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlHelper.cs" />
+    <Compile Include="TableModel.cs" />
+    <Compile Include="TableOpration.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
