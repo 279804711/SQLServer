@@ -61,11 +61,17 @@ namespace ConsoleConnectSqlServer
             //获取数据库表格
             List<TableModel> users = TableOpration.QureyAllUsers();
 
-
+            Console.WriteLine(InfoHelper.Info12);
 
             //打印数据库表格
             for (int i=0; i<users.Count; i++)
             {
+                //获取用户成绩表
+                UserScoreTModel userScores = UserScoreOpration.GetUserScoresByUsernameOderByRecordTime(users[i].UserName);
+
+                
+
+
                 string genderForSql = users[i].Gender;
                 if (genderForSql == "1")
                 {
@@ -75,8 +81,18 @@ namespace ConsoleConnectSqlServer
                 {
                     genderForSql = InfoHelper.Gender2;
                 }
-                Console.WriteLine(InfoHelper.Info12);
-                Console.WriteLine($"{users[i].UserName} {users[i].NickName} {genderForSql}");
+
+                if (userScores == null)
+                {
+                    Console.WriteLine($"{users[i].UserName} {users[i].NickName} {genderForSql} ");
+                    continue;
+                }
+                Console.WriteLine($"{users[i].UserName} {users[i].NickName} {genderForSql} {userScores.Chinese} {userScores.English} {userScores.Math} {userScores.RecordTime}");
+                //for (int j = 0; j < userScores.Count; j++)
+                //{
+                //    Console.WriteLine($"{users[i].UserName} {users[i].NickName} {genderForSql} {userScores[j].Chinese} {userScores[j].English} {userScores[j].Math} {userScores[j].RecordTime}");
+                //}
+
             }
 
 

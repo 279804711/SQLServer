@@ -3,23 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\27980\\Desktop\\Projects\\SQLServer\\ConsoleConnectSqlServer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{506F8866-647B-441D-958C-EABEDD76DA0F}|ConsoleConnectSqlServer\\ConsoleConnectSqlServer.csproj|c:\\users\\27980\\desktop\\projects\\sqlserver\\consoleconnectsqlserver\\consoleconnectsqlserver\\userscoreopration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{506F8866-647B-441D-958C-EABEDD76DA0F}|ConsoleConnectSqlServer\\ConsoleConnectSqlServer.csproj|solutionrelative:consoleconnectsqlserver\\userscoreopration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{506F8866-647B-441D-958C-EABEDD76DA0F}|ConsoleConnectSqlServer\\ConsoleConnectSqlServer.csproj|C:\\Users\\27980\\Desktop\\Projects\\SQLServer\\ConsoleConnectSqlServer\\consoleconnectsqlserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{506F8866-647B-441D-958C-EABEDD76DA0F}|ConsoleConnectSqlServer\\ConsoleConnectSqlServer.csproj|solutionrelative:consoleconnectsqlserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{506F8866-647B-441D-958C-EABEDD76DA0F}|ConsoleConnectSqlServer\\ConsoleConnectSqlServer.csproj|c:\\users\\27980\\desktop\\projects\\sqlserver\\consoleconnectsqlserver\\consoleconnectsqlserver\\userscoretmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{506F8866-647B-441D-958C-EABEDD76DA0F}|ConsoleConnectSqlServer\\ConsoleConnectSqlServer.csproj|solutionrelative:consoleconnectsqlserver\\userscoretmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{506F8866-647B-441D-958C-EABEDD76DA0F}|ConsoleConnectSqlServer\\ConsoleConnectSqlServer.csproj|c:\\users\\27980\\desktop\\projects\\sqlserver\\consoleconnectsqlserver\\consoleconnectsqlserver\\tableopration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{506F8866-647B-441D-958C-EABEDD76DA0F}|ConsoleConnectSqlServer\\ConsoleConnectSqlServer.csproj|solutionrelative:consoleconnectsqlserver\\tableopration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{506F8866-647B-441D-958C-EABEDD76DA0F}|ConsoleConnectSqlServer\\ConsoleConnectSqlServer.csproj|c:\\users\\27980\\desktop\\projects\\sqlserver\\consoleconnectsqlserver\\consoleconnectsqlserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{506F8866-647B-441D-958C-EABEDD76DA0F}|ConsoleConnectSqlServer\\ConsoleConnectSqlServer.csproj|solutionrelative:consoleconnectsqlserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{506F8866-647B-441D-958C-EABEDD76DA0F}|ConsoleConnectSqlServer\\ConsoleConnectSqlServer.csproj|c:\\users\\27980\\desktop\\projects\\sqlserver\\consoleconnectsqlserver\\consoleconnectsqlserver\\infohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{506F8866-647B-441D-958C-EABEDD76DA0F}|ConsoleConnectSqlServer\\ConsoleConnectSqlServer.csproj|solutionrelative:consoleconnectsqlserver\\infohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{506F8866-647B-441D-958C-EABEDD76DA0F}|ConsoleConnectSqlServer\\ConsoleConnectSqlServer.csproj|c:\\users\\27980\\desktop\\projects\\sqlserver\\consoleconnectsqlserver\\consoleconnectsqlserver\\tablemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{506F8866-647B-441D-958C-EABEDD76DA0F}|ConsoleConnectSqlServer\\ConsoleConnectSqlServer.csproj|C:\\Users\\27980\\Desktop\\Projects\\SQLServer\\ConsoleConnectSqlServer\\consoleconnectsqlserver\\tablemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{506F8866-647B-441D-958C-EABEDD76DA0F}|ConsoleConnectSqlServer\\ConsoleConnectSqlServer.csproj|solutionrelative:consoleconnectsqlserver\\tablemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{506F8866-647B-441D-958C-EABEDD76DA0F}|ConsoleConnectSqlServer\\ConsoleConnectSqlServer.csproj|c:\\users\\27980\\desktop\\projects\\sqlserver\\consoleconnectsqlserver\\consoleconnectsqlserver\\sqlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{506F8866-647B-441D-958C-EABEDD76DA0F}|ConsoleConnectSqlServer\\ConsoleConnectSqlServer.csproj|C:\\Users\\27980\\Desktop\\Projects\\SQLServer\\ConsoleConnectSqlServer\\consoleconnectsqlserver\\infohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{506F8866-647B-441D-958C-EABEDD76DA0F}|ConsoleConnectSqlServer\\ConsoleConnectSqlServer.csproj|solutionrelative:consoleconnectsqlserver\\infohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{506F8866-647B-441D-958C-EABEDD76DA0F}|ConsoleConnectSqlServer\\ConsoleConnectSqlServer.csproj|C:\\Users\\27980\\Desktop\\Projects\\SQLServer\\ConsoleConnectSqlServer\\consoleconnectsqlserver\\sqlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{506F8866-647B-441D-958C-EABEDD76DA0F}|ConsoleConnectSqlServer\\ConsoleConnectSqlServer.csproj|solutionrelative:consoleconnectsqlserver\\sqlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -35,19 +43,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UserScoreOpration.cs",
+              "DocumentMoniker": "C:\\Users\\27980\\Desktop\\Projects\\SQLServer\\ConsoleConnectSqlServer\\ConsoleConnectSqlServer\\UserScoreOpration.cs",
+              "RelativeDocumentMoniker": "ConsoleConnectSqlServer\\UserScoreOpration.cs",
+              "ToolTip": "C:\\Users\\27980\\Desktop\\Projects\\SQLServer\\ConsoleConnectSqlServer\\ConsoleConnectSqlServer\\UserScoreOpration.cs",
+              "RelativeToolTip": "ConsoleConnectSqlServer\\UserScoreOpration.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAswAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T15:36:53.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserScoreTModel.cs",
+              "DocumentMoniker": "C:\\Users\\27980\\Desktop\\Projects\\SQLServer\\ConsoleConnectSqlServer\\ConsoleConnectSqlServer\\UserScoreTModel.cs",
+              "RelativeDocumentMoniker": "ConsoleConnectSqlServer\\UserScoreTModel.cs",
+              "ToolTip": "C:\\Users\\27980\\Desktop\\Projects\\SQLServer\\ConsoleConnectSqlServer\\ConsoleConnectSqlServer\\UserScoreTModel.cs",
+              "RelativeToolTip": "ConsoleConnectSqlServer\\UserScoreTModel.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T15:33:40.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "TableOpration.cs",
               "DocumentMoniker": "C:\\Users\\27980\\Desktop\\Projects\\SQLServer\\ConsoleConnectSqlServer\\ConsoleConnectSqlServer\\TableOpration.cs",
               "RelativeDocumentMoniker": "ConsoleConnectSqlServer\\TableOpration.cs",
               "ToolTip": "C:\\Users\\27980\\Desktop\\Projects\\SQLServer\\ConsoleConnectSqlServer\\ConsoleConnectSqlServer\\TableOpration.cs",
               "RelativeToolTip": "ConsoleConnectSqlServer\\TableOpration.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAowB0AAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA6wFwAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-14T13:44:34.852Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TableModel.cs",
               "DocumentMoniker": "C:\\Users\\27980\\Desktop\\Projects\\SQLServer\\ConsoleConnectSqlServer\\ConsoleConnectSqlServer\\TableModel.cs",
               "RelativeDocumentMoniker": "ConsoleConnectSqlServer\\TableModel.cs",
@@ -60,7 +94,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\27980\\Desktop\\Projects\\SQLServer\\ConsoleConnectSqlServer\\ConsoleConnectSqlServer\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleConnectSqlServer\\Program.cs",
+              "ToolTip": "C:\\Users\\27980\\Desktop\\Projects\\SQLServer\\ConsoleConnectSqlServer\\ConsoleConnectSqlServer\\Program.cs",
+              "RelativeToolTip": "ConsoleConnectSqlServer\\Program.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAuwFkAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T13:21:06.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "SqlHelper.cs",
               "DocumentMoniker": "C:\\Users\\27980\\Desktop\\Projects\\SQLServer\\ConsoleConnectSqlServer\\ConsoleConnectSqlServer\\SqlHelper.cs",
               "RelativeDocumentMoniker": "ConsoleConnectSqlServer\\SqlHelper.cs",
@@ -68,33 +115,19 @@
               "RelativeToolTip": "ConsoleConnectSqlServer\\SqlHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T13:16:59.599Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-14T13:16:59.599Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "InfoHelper.cs",
               "DocumentMoniker": "C:\\Users\\27980\\Desktop\\Projects\\SQLServer\\ConsoleConnectSqlServer\\ConsoleConnectSqlServer\\InfoHelper.cs",
               "RelativeDocumentMoniker": "ConsoleConnectSqlServer\\InfoHelper.cs",
               "ToolTip": "C:\\Users\\27980\\Desktop\\Projects\\SQLServer\\ConsoleConnectSqlServer\\ConsoleConnectSqlServer\\InfoHelper.cs",
               "RelativeToolTip": "ConsoleConnectSqlServer\\InfoHelper.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAkwCAAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAIwBkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-14T12:32:20.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\27980\\Desktop\\Projects\\SQLServer\\ConsoleConnectSqlServer\\ConsoleConnectSqlServer\\Program.cs",
-              "RelativeDocumentMoniker": "ConsoleConnectSqlServer\\Program.cs",
-              "ToolTip": "C:\\Users\\27980\\Desktop\\Projects\\SQLServer\\ConsoleConnectSqlServer\\ConsoleConnectSqlServer\\Program.cs",
-              "RelativeToolTip": "ConsoleConnectSqlServer\\Program.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T13:21:06.732Z",
               "EditorCaption": ""
             }
           ]
