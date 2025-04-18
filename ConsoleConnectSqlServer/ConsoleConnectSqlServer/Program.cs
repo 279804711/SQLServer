@@ -57,43 +57,58 @@ namespace ConsoleConnectSqlServer
 
             //获取收集数据
             TableOpration.CollectGender(userTM);
-            
-            //获取数据库表格
-            List<TableModel> users = TableOpration.QureyAllUsers();
 
+            //获取数据表
+            List<UserAndUserScoresModel> users = UserAndUserScoresOpration.Get1FirstDataList();
             Console.WriteLine(InfoHelper.Info12);
 
-            //打印数据库表格
-            for (int i=0; i<users.Count; i++)
+
+            for (int i = 0; i < users.Count; i++)
             {
-                //获取用户成绩表
-                UserScoreTModel userScores = UserScoreOpration.GetUserScoresByUsernameOderByRecordTime(users[i].UserName);
-
-                
-
-
                 string genderForSql = users[i].Gender;
                 if (genderForSql == "1")
                 {
                     genderForSql = InfoHelper.Gender1;
                 }
-                else if(genderForSql == "2")
+                else if (genderForSql == "2")
                 {
                     genderForSql = InfoHelper.Gender2;
                 }
-
-                if (userScores == null)
-                {
-                    Console.WriteLine($"{users[i].UserName} {users[i].NickName} {genderForSql} ");
-                    continue;
-                }
-                Console.WriteLine($"{users[i].UserName} {users[i].NickName} {genderForSql} {userScores.Chinese} {userScores.English} {userScores.Math} {userScores.RecordTime}");
-                //for (int j = 0; j < userScores.Count; j++)
-                //{
-                //    Console.WriteLine($"{users[i].UserName} {users[i].NickName} {genderForSql} {userScores[j].Chinese} {userScores[j].English} {userScores[j].Math} {userScores[j].RecordTime}");
-                //}
-
+                Console.WriteLine($"{users[i].UserName} {users[i].NickName} {genderForSql} {users[i].Chinese} {users[i].English} {users[i].Math} {users[i].RecordTime}");
             }
+            ////获取数据库表格
+            //List<TableModel> users = TableOpration.QureyAllUsers();
+
+            //Console.WriteLine(InfoHelper.Info12);
+
+            ////打印数据库表格
+            //for (int i=0; i<users.Count; i++)
+            //{
+            //    //获取用户成绩表
+            //    UserScoreTModel userScores = UserScoreOpration.GetUserScoresByUsernameOderByRecordTime(users[i].UserName);
+
+
+
+
+            //    string genderForSql = users[i].Gender;
+            //    if (genderForSql == "1")
+            //    {
+            //        genderForSql = InfoHelper.Gender1;
+            //    }
+            //    else if(genderForSql == "2")
+            //    {
+            //        genderForSql = InfoHelper.Gender2;
+            //    }
+
+            //    if (userScores == null)
+            //    {
+            //        Console.WriteLine($"{users[i].UserName} {users[i].NickName} {genderForSql} ");
+            //        continue;
+            //    }
+            //    Console.WriteLine($"{users[i].UserName} {users[i].NickName} {genderForSql} {userScores.Chinese} {userScores.English} {userScores.Math} {userScores.RecordTime}");
+
+
+            //}
 
 
 

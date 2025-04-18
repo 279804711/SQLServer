@@ -49,6 +49,8 @@
     <Compile Include="SqlHelper.cs" />
     <Compile Include="TableModel.cs" />
     <Compile Include="TableOpration.cs" />
+    <Compile Include="UserAndUserScoresModel.cs" />
+    <Compile Include="UserAndUserScoresOpration.cs" />
     <Compile Include="UserScoreOpration.cs" />
     <Compile Include="UserScoreTModel.cs" />
   </ItemGroup>
