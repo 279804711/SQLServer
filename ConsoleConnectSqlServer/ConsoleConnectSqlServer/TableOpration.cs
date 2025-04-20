@@ -4,6 +4,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ConsoleConnectSqlServer.EF6;
 
 namespace ConsoleConnectSqlServer
 {
@@ -42,6 +43,7 @@ namespace ConsoleConnectSqlServer
             return users;
         }
 
+        //public static void CollectGender(TableModel userTM)
         public static void CollectGender(TableModel userTM)
         {
             //获取收集数据

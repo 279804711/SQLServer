@@ -5,3 +5,8 @@ C:\Users\27980\Desktop\Projects\SQLServer\ConsoleConnectSqlServer\ConsoleConnect
 C:\Users\27980\Desktop\Projects\SQLServer\ConsoleConnectSqlServer\ConsoleConnectSqlServer\obj\Debug\ConsoleConnectSqlServer.csproj.CoreCompileInputs.cache
 C:\Users\27980\Desktop\Projects\SQLServer\ConsoleConnectSqlServer\ConsoleConnectSqlServer\obj\Debug\ConsoleConnectSqlServer.exe
 C:\Users\27980\Desktop\Projects\SQLServer\ConsoleConnectSqlServer\ConsoleConnectSqlServer\obj\Debug\ConsoleConnectSqlServer.pdb
+C:\Users\27980\Desktop\Projects\SQLServer\ConsoleConnectSqlServer\ConsoleConnectSqlServer\bin\Debug\EntityFramework.dll
+C:\Users\27980\Desktop\Projects\SQLServer\ConsoleConnectSqlServer\ConsoleConnectSqlServer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\27980\Desktop\Projects\SQLServer\ConsoleConnectSqlServer\ConsoleConnectSqlServer\bin\Debug\EntityFramework.xml
+C:\Users\27980\Desktop\Projects\SQLServer\ConsoleConnectSqlServer\ConsoleConnectSqlServer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\27980\Desktop\Projects\SQLServer\ConsoleConnectSqlServer\ConsoleConnectSqlServer\obj\Debug\ConsoleC.9E0AB808.Up2Date
